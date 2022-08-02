@@ -10,6 +10,7 @@
 3.3x3的九宫格是否符合规则，那么使用v2来表示，从左到右，从上到下 分别是(i/3)*3 可以表示在第几行的九宫格中，j/3可以表示在该行下的第几个九宫格。如下图
 ![附图](../picture/No36.1.png)
 ## 代码
+```
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -47,6 +48,7 @@ public:
     }
     
 };
+```
 ## 题解中的其他解或者最优解
 bitset可以使用hash表或者数组来替代
 ## 力扣网址
